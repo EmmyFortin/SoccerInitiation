@@ -7,6 +7,7 @@ public class Buts : MonoBehaviour
 {
 
     [SerializeField] private GameObject _textePoints;
+    [SerializeField] private GameObject _ballon;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,7 @@ public class Buts : MonoBehaviour
     {
         if(other.name == "Soccer Ball"){
            _textePoints.SetActive(true);
+          
         }
     }
 }
